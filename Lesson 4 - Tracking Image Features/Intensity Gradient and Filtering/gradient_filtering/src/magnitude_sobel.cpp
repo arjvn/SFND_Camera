@@ -24,16 +24,16 @@ void magnitudeSobel()
 
     // apply filter using the OpenCv function filter2D()
     // ToDo : Add your code here
-    
 
-    // compute magnitude image based on the equation presented in the lesson 
+
+    // compute magnitude image based on the equation presented in the lesson
     // ToDo : Add your code here
-    
+
 
     // show result
     string windowName = "Gaussian Blurring";
     cv::namedWindow(windowName, 1); // create window
-    cv::imshow(windowName, magnitude);
+    // cv::imshow(windowName, magnitude);
     cv::waitKey(0); // wait for keyboard input before continuing
 }
 

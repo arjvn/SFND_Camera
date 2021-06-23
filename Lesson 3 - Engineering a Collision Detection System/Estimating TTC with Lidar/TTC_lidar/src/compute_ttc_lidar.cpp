@@ -2,7 +2,6 @@
 #include <numeric>
 #include <opencv2/core.hpp>
 
-
 #include "dataStructures.h"
 #include "structIO.hpp"
 
